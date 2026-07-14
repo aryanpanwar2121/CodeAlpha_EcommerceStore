@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ShopSphere | CodeAlpha</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<nav><h2>ShopSphere</h2><div><a href="#products">Products</a><button onclick="showOrders()">My Orders</button><button onclick="openAuth()">Login</button><button class="cart-btn" onclick="openCart()">Cart (<span id="cartCount">0</span>)</button></div></nav>
+<header><div><p>CODEALPHA FULL STACK PROJECT</p><h1>Everything you need,<br>in one place.</h1><a href="#products">Shop Now</a></div></header>
+<main><section id="products"><h2>Featured Products</h2><p class="sub">Discover our popular products</p><div id="productGrid" class="grid"></div></section></main>
+<div id="modal" class="modal"><div class="modal-box"><button class="close" onclick="closeModal()">×</button><div id="modalContent"></div></div></div>
+<footer>CodeAlpha Internship Project • Developed by Aryan Panwar</footer>
+<script src="script.js"></script></body></html>
